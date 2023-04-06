@@ -13,4 +13,6 @@
 
 ## projects
 
-[svelte-03](projects/svelte-03/) with deployment instructions to netlify
+[projects](projects)
+
+- [svelte-03](projects/svelte-03/) with deployment instructions to netlify

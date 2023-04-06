@@ -28,26 +28,9 @@ npm run dev -- --open
 # run with no preview
 npm run build
 # run with preview
-npm run preview
+npm run preview -- --open
 ```
 
 ## deploying to netlify
 
-must add `netlify.toml` in project root
-
-```yaml
-[build]
-  command = "npm run build"
-  publish = ".svelte-kit/output/client"
-```
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
->
-> so installing
->
-> 
-```bash
-npm install -D @sveltejs/adapter-netlify
-```
-
-
+this app is not deployed to netlify
