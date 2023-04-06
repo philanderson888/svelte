@@ -5,7 +5,12 @@
 - [svelte](#svelte)
   - [contents](#contents)
   - [getting started](#getting-started)
+  - [projects](#projects)
 
 ## getting started
 
 [getting-started](notes/getting-started.md)
+
+## projects
+
+[svelte-03](projects/svelte-03/) with deployment instructions to netlify

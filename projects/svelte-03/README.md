@@ -36,3 +36,35 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+>
+> ## deploying to Netlify
+>
+> ### netlify.toml
+>
+> add netlify.toml at root of /projects/svelte-03/
+>
+> 
+
+```yaml
+[build]
+  command = "npm run build"
+  publish = ".svelte-kit/output/client"
+```
+
+also netlify build settings
+
+```bash
+# base directory  
+/projects/svelte-03
+# publish directory
+/projects/svelte-03/.svelte-kit/output/server
+```
+
+or
+
+```bash
+# base directory  
+/projects/svelte-03
+# publish directory
+/projects/svelte-03/.svelte-kit/output/client
+```
