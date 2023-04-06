@@ -4,6 +4,7 @@
 - [getting started](#getting-started)
   - [contents](#contents)
   - [installing](#installing)
+  - [build](#build)
   - [publishing](#publishing)
 
 ## installing
@@ -12,9 +13,19 @@
 npm create vite@latest hello-world-01 -- --template svelte
 // choose svelte svelte-ts
 cd hello-world-01
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
+
+## build
+
+to build only we run
+
+```
+yarn run build
+```
+
+which puts the output files in the `dist` folder
 
 ## publishing
 
