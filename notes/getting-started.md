@@ -6,6 +6,7 @@
   - [installing](#installing)
   - [build](#build)
   - [publishing](#publishing)
+  - [getting started using `vite`](#getting-started-using-vite)
 
 ## installing
 
@@ -50,3 +51,13 @@ publish directory is
 ```
 
 site is deployed to https://svelte-hello-world-01.netlify.app/
+
+
+## getting started using `vite`
+
+```js
+npm init vite 
+cd ...
+npm install 
+npm run dev
+```
