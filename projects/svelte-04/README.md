@@ -42,3 +42,12 @@ must add `netlify.toml` in project root
 ```
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+>
+> so installing
+>
+> 
+```bash
+npm install -D @sveltejs/adapter-netlify
+```
+
+
