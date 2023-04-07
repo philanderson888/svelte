@@ -56,15 +56,8 @@ also netlify build settings
 ```bash
 # base directory  
 /projects/svelte-03
-# publish directory
-/projects/svelte-03/.svelte-kit/output/server
-```
-
-or
-
-```bash
-# base directory  
-/projects/svelte-03
+# build command
+npm run build
 # publish directory
 /projects/svelte-03/.svelte-kit/output/client
 ```
